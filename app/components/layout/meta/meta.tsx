@@ -1,3 +1,4 @@
+import { onlyText } from "@/utils/clearText";
 import Head from "next/head";
 import { FC, PropsWithChildren } from "react";
 
@@ -18,7 +19,7 @@ const Meta: FC<PropsWithChildren<ISeo>> = ({ type = "website", description, chil
        <meta
         itemProp='description'
         name='description'
-        //content = {onlyText(description, 152)}
+        content = {onlyText(description, 152)}
        />
        <link rel='canonical' href="" />
        <meta property="og:type" content="type" />

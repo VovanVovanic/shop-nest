@@ -8,10 +8,12 @@ const Layout: FC<PropsWithChildren<ISeo>> = ({ children, ...args }) => {
    <Meta />
    <div className={classes.layout}>
     <main>
-     <Header />
+     {/* <Header /> */}
      <section className={classes.section}>{children}</section>
     </main>
    </div>
   </>
  )
 }
+
+export default Layout

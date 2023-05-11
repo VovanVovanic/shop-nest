@@ -1,13 +1,17 @@
+import Layout from "@/components/layout/layout"
 import { FC } from "react"
+import classes from './home.module.scss'
 
 const Home: FC = () => {
- return (
-  <div className="flex h-screen w-full items-center justify-center">
-   <h1 className="text-center text-7xl font-bold text-red">
-    Hello world
-    </h1>
-  </div>
- )
+  return (
+    <Layout title='Home'>
+      <div className={classes.home}>
+        <h1 className={classes.header}>
+          Hello world
+        </h1>
+      </div>
+    </Layout>
+  )
 }
 
 export default Home

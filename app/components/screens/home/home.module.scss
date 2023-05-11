@@ -1,0 +1,6 @@
+.home{
+ @apply flex h-screen w-full items-center justify-center;
+ .header{
+  @apply text-center text-7xl font-bold;
+ }
+}
