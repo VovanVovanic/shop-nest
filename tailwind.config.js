@@ -8,7 +8,7 @@ const constants = {
   'light-gray': '#E8E7E3',
   'dark-green': '#006044',
   'beige': '#A49B8F',
-  'light-green': '#E6F2EF',
+  'light-green': '#E6F2EF'
 
 }
 
@@ -25,6 +25,7 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:constants,
       fontSize: {
         xs: '0.82rem',
         sm: '0.98rem',
@@ -40,7 +41,7 @@ module.exports = {
         '7x1': '5.17rem',
         '8x1': '6.9rem',
         '9x1':'9.2rem'
-      }
+      },
     },
   },
   plugins: [],

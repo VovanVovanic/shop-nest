@@ -1,8 +1,15 @@
 .layout {
- @apply flex flex-wrap;
+ 
+ul{
+  @apply list-none;
 
+}
+a{
+  @apply no-underline text-black;
+}
  main {
-  @apply w-4/5 py-8 px-10;
+  @apply bg-white py-8 px-10 ;
    .section {}
  }
+
 }
